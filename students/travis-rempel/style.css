@@ -1,0 +1,107 @@
+/* BASIC ELEMENTS & CLASSES */
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #e9e9e9;
+}
+
+h1, h2 {
+    display: inline-block;
+    font-weight: 400;
+    padding-left: 8px;
+    padding-left: 8px;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h2 i {
+    width: 55px;
+}
+
+a {
+    text-decoration: none;
+    color: #37a;
+}
+
+a:visited {
+    color: #3a7;
+}
+
+.content {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 10px 80px 10px;
+    height: 100%;
+}
+
+header,
+footer {
+    background-color: #333;
+}
+
+.portrait {
+    background: url(images/IM.jpg) no-repeat 50% 0%;
+    height: 540px;
+}
+
+.specs {
+    background-color: #37a;
+}
+
+.specs p {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.likes {
+    background-color: #3a7;
+}
+
+.dislikes {
+    background-color: #a55;
+}
+
+
+/* TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+td:nth-child(even) {
+    text-align: right;
+}
+
+td {
+    padding: 3px 8px 3px 8px;
+}
+
+/* LIST */
+
+ul {
+    list-style-type: none;
+}
+
+ul i {
+    width: 30px;
+}
+
+
+/* DESKTOP */
+/* @media all and (min-width: 500px) {} */
+
+    
