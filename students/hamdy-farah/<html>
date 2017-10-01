@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<style>
+		body{
+			background-image: url('splash.jpg');
+		}
+		</style>
+	</head>
+
+	<body>
+		<h1>Hamdy Farah</h1>
+		<h2>
+			FRONT-END-WEB-DEVELOPER</h2>
+		<p>
+			Hello everyone, my name is Hamdy Farah. My objuective for taking this course is to, at some point, become a front-end developer and after that become a full-stack developer.
+		</p>
+	</body>
+
+</html>

@@ -1,0 +1,66 @@
+p{/*styling paragraph*/
+    font-size: 17px;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 8px 20px 15px 30px;
+    max-width: 50%;
+    text-align: justify;
+}
+p.basic{/*styling paragraph below the profile pic*/
+    text-align: center;
+    padding-left: 150px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2{/*styling titles*/
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 0px;
+}
+ul.list{/*styling for list items*/
+    font-size: 17px;
+    font-family: Verdana, Geneva, sans-serif;
+    
+}
+ul{/*styling for the unordered list*/
+    padding: 8px 20px 15px 30px;
+    text-align:justify;
+    max-width: 50%;
+}
+body{/*background color styling*/
+    background-color: cornsilk;
+    opacity: 1; 
+}
+div.background {/*inserting background picture*/
+    background-image: url("./images/background.jpg");
+    background-size: 100%;
+    background-repeat: no repeat;
+    height: 710px;
+    z-index: -1;
+    /*opacity: 0.132;*/
+    opacity: 0.17;
+}
+
+div.left{/*using float to make profile pic on the left*/
+    float: left; 
+    width: 50%;
+}
+.profile{/*styling profile pic*/
+    height: 500px;
+    width: auto;
+    margin-left: 140px;
+    margin-right: 230px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    opacity: 1;
+}
+div.text{/*styling for the texts on the right*/
+    float:left;
+    width: 50%;
+    padding: 30px 0px;  
+}
+p.link{/*positioning social media links at the bottom right corner*/
+    text-align: center;
+    position:absolute;
+    bottom: 5px;
+    right: 50px;
+}
