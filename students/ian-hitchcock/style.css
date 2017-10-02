@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-family: 'Asap Condensed', sans-serif;    
+}
+
+body {
+    background-color: #558C89;
+    color: #fff;
+}
+.float-right {
+    float: right;
+}
+header {
+    background-color: #74AFAD;
+}
+main {
+    background-color: #ECECEA;
+    color: #000;
+    height: 400 px;
+    padding-bottom: 2em;
+
+}
+h1{
+    color: #fff;
+    font-size: 2em;
+    margin: 1em;
+    width: 50%;
+}
+h2 {
+    color: #D9853B;
+    font-size: 1.6em;
+    margin: 0.5em;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+h3 {
+    color: #558C89;
+    font-size: 1.1em;
+    margin: 0.3em;
+    width: 100%;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+li p {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+a {
+    display: inline-block;
+    color: #fff;
+    float: none;
+    text-decoration: none;
+}
+p {
+    text-align: center;
+    width: 100%;
+    font-size: 1;
+    margin: 0.2em;
+} 
+
+/* for moblie */
+[class*="col-"] {
+    width: 100%;
+}
+body {
+    width: 100%;
+    opacity: 0.7;
+    background-image: url("images/ian-hitchcock.png");
+    background-position: center;
+    background-repeat: repeat-y;
+}
+img {
+    width: 0;
+}
+footer {
+    float: none;
+}
+/* for browser */
+@media screen and (min-width:400px) {
+    body {
+        padding-left: 15%;
+        padding-right: 15%;
+        width: 70%;
+        opacity: 1;
+        background-image: none;
+    }
+    .col-1 {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+    .col-2 {
+        padding-right: 5%;
+        padding-left: 5%;
+        width: 40%;
+    }
+    img {
+        width: auto;
+    }
+}
+
+
